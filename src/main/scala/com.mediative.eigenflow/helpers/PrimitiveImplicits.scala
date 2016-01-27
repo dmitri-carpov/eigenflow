@@ -21,4 +21,6 @@ import scala.language.implicitConversions
 object PrimitiveImplicits {
   implicit def int2String(value: Int): String = value.toString
   implicit def string2Int(value: String): Int = Integer.parseInt(value)
+  implicit def unit2String(value: Unit): String = value.toString
+  implicit def string2Unit(value: String): Unit = ()
 }

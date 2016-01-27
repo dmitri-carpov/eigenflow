@@ -16,6 +16,8 @@
 
 package com.mediative.eigenflow.domain
 
+import com.mediative.eigenflow.domain.RecoveryStrategy.Retry
+
 /**
  * Registry for the stage retries.
  *
